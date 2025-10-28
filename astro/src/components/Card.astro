@@ -1,0 +1,32 @@
+---
+import Author from "./Author.astro";
+
+const {data} = Astro.props;
+---
+
+<article>
+    <img src={data.hero} alt="alt" width="300px">
+    <div class="content">
+        <p class="title"> {data.title} </p>
+        <p class="description"> {data.description} </p>
+        <Author name={data.author.name} avatar={data.author.avatar} time={data.time}/>
+    </div>
+</article>
+
+<style>
+    article{
+        background-color: pink;
+        width: 300px;
+        margin: 1em;
+        padding: .5em;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 15px;
+    }
+
+    img {
+        border-radius: 10px;
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+</style>

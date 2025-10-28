@@ -1,0 +1,35 @@
+[
+    {
+        "author": {
+            "name": "test 1",
+            "avatar": "image6.jpg"
+        },
+
+        "title": "Dit is een test tekstje!",
+        "description": "Nogsteeds een test tekstje...",
+        "hero": "image2.jpg",
+        "time": "2h ago"
+    },
+    {
+        "author": {
+            "name": "test 2",
+            "avatar": "image5.jpg"
+        },
+
+        "title": "Dit is een test tekstje!",
+        "description": "Nogsteeds een test tekstje...",
+        "hero": "image1.jpg",
+        "time": "yesterday"
+    },
+    {
+        "author": {
+            "name": "test 3",
+            "avatar": "image3.jpg"
+        },
+
+        "title": "Dit is een test tekstje!",
+        "description": "Nogsteeds een test tekstje...",
+        "hero": "image4.jpg",
+        "time": "23 December 2018"
+    }
+]

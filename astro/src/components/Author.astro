@@ -1,0 +1,25 @@
+---
+const { avatar, name, time } = Astro.props;
+---
+<div class="author">
+    <img src={avatar} alt={name} width="100px">
+    <div>
+        <p>{name}</p>
+        <p>{time}</p>
+    </div>
+</div>
+
+<style>
+    .author {
+        display: flex;
+        gap: .5em;
+    }
+
+    img {
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+    }
+
+</style>
